@@ -21,6 +21,7 @@ class x {
 };
 int main() {
 	A a1;
+	a1.read();
 	x x1;
 	x1.display(a1);
 	return 0;
