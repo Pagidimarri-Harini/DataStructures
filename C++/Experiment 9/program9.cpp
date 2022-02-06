@@ -5,7 +5,7 @@ class A{
 		int a;
 		A(){
 			a = 10;
-			cout << "Constructor created";
+			cout << "Constructor created" << endl;
 		}
 		void display(){
 			cout << a << endl;
