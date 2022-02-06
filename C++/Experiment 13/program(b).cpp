@@ -3,7 +3,7 @@
 using namespace std;
 class A{
 	public:
-		float a,b;
+		int a,b;
 	void read(){
 		cout << "Enter two numbers a and b" << endl;
 		cin >> a >> b;
@@ -13,7 +13,7 @@ class A{
 			if(b == 0){
 				throw b;
 			}else{
-				cout << "Division of a and b is " << a/b << endl;
+				cout << "Division of a and b is " << float(a)/float(b) << endl;
 			}
 		}
 		catch(int x){
