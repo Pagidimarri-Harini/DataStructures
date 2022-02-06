@@ -3,8 +3,8 @@
 using namespace std;
 class A {
   private:
-    char a;
-	  int num;
+    	char a;
+	int num;
 	public:
 	  void read() {
 		  cout << "enter the values:";
