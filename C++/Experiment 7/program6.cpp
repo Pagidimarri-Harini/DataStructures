@@ -15,8 +15,8 @@ class Employee{
 	}  
  };  
  int main(void){  
- 	Employee e1 = Employee(1,"Sita",10000);
-	Employee e2 = Employee(2,"Gita",20000);
+ 	Employee e1 = Employee(1,"Anna",10000);
+	Employee e2 = Employee(2,"Elsa",20000);
 	e1.display();  
  	e2.display();  
   
