@@ -3,9 +3,9 @@
 using namespace std;
 class A{
 	public:
-		float a,b;
+		int a,b;
 	void read(){
-		cout << "enter two numbers" << endl;
+		cout << "enter two numbers " << endl;
 		cin >> a >> b;
 	}
 	void Calculate(){
@@ -13,7 +13,7 @@ class A{
 			if(b == 0){
 				throw b;
 			}else{
-				cout << "The division of a and b" << a/b << endl;
+				cout << "The division of a and b is " << float(a)/float(b) << endl;
 			}
 		}
 		catch(int x){
